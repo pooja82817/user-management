@@ -1,0 +1,60 @@
+.main{
+    /* padding: 5%; */
+    width: 100%;
+    padding: 100px 5%;
+    min-height: 100vh;
+}
+.cards{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.card{
+    width:20%;
+    margin: 2%;
+    box-shadow: 2px 3px 6px rgb(204, 204, 204);
+    padding: 2% 1%;
+    margin-top: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover .icons{
+    top: 5%;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.card .icons{
+    position: absolute;
+    right: 5%;
+    top: -15%;
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+    transition: .4s;
+
+}
+.fa-pen-to-square{
+    color: rgb(16, 107, 255);
+    cursor: pointer;
+}
+.fa-trash{
+    cursor: pointer;
+    color: red;
+}
+
+
